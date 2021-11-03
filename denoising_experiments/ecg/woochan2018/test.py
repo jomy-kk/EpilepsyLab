@@ -5,7 +5,7 @@ import numpy as np
 from os import path, getcwd, listdir
 import matplotlib.pyplot as plt
 
-from ioTools.user import *
+from io_tools.user import *
 from model import *
 
 dir = "{}/Trained_Params/{}".format(getcwd(), 'Convolutional Autoencoder')

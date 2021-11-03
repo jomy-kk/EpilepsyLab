@@ -3,10 +3,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from ioTools.user import *
-from ioTools.ecg import ECGData, MITBIHData
-from ioTools.emg import EMGData
-from ioTools.acc import ACCData
+from io_tools.user import *
+from io_tools.ecg import ECGData, MITBIHData
+from io_tools.emg import EMGData
+from io_tools.acc import ACCData
 from models.nn import NNDataPrep
 
 # Used to create Input/Label data for NN models
